@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- inzio nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img class="img-fluid imgcustom1"
+                    src="https://svgsilh.com/svg/1297704-4caf50.svg" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- fine nav -->
+
+    <!-- inizio header -->
+    <header class="container-fluid">
+        <div class="row vh-100 align-content-start">
+            <h1>Scuola Cinofila Losciale: <br>
+                <br>
+                A Scuola con il Tuo Cane
+            </h1>
+        </div>
+    </header>
+    <!-- fine header -->
+    <!-- section servizi -->
+    <section class="container mt-5 text-center">
+        <h2 class="mb-5"> i nostri servizi</h2>
+        <div class="row justify-content-evenly">
+            <article class="col-12 col-md-4 mt-5">
+                <div class="card card-service" style="width: 18rem;">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/14/04/47/dog-school-672718_640.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Educazione di base:</h5>
+                        <p class="card-text">Insegnare al cane i comandi fondamentali come "seduto", "resta", "vieni",
+                            "lascia", "cammina al guinzaglio".</p>
+                        <a href="#" class="btn btn-primary">Scopri di più</a>
+                        <a href="#" class="btn btn-primary">Anteprima</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-4 mt-5">
+                <div class="card card-service" style="width: 18rem;">
+                    <img src="https://cdn.pixabay.com/photo/2021/07/13/09/37/dogs-6463032_640.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Socializzazione:</h5>
+                        <p class="card-text">Aiutare il cane a interagire in modo positivo con altri cani e persone.</p>
+                        <a href="#" class="btn btn-primary">Scopri di più</a>
+                        <a href="#" class="btn btn-primary">Anteprima</a>
+
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-12 col-lg-4 mt-5">
+                <div class="card card-service" style="width: 18rem;">
+                    <img src="https://cdn.pixabay.com/photo/2014/08/21/14/51/dog-423398_640.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Risoluzione di problemi comportamentali:</h5>
+                        <p class="card-text">Affrontare problemi come l'aggressività, l'ansia da separazione, la paura
+                            dei rumori.</p>
+                        <a href="#" class="btn btn-primary">Scopri di più</a>
+                        <a href="#" class="btn btn-primary">Anteprima</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-4 mt-5">
+                <div class="card card-service" style="width: 18rem;">
+                    <img src="https://media.istockphoto.com/id/173873810/it/foto/cane-agilit%C3%A0.jpg?s=612x612&w=0&k=20&c=8BAakW0P5i1ffhAquNjDE5e4P_eZWVw8GnOWjnDVUXc="
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Agility dog:</h5>
+                        <p class="card-text">Un percorso ad ostacoli che stimola l'agilità e la coordinazione del cane.
+                        </p>
+                        <a href="#" class="btn btn-primary">Scopri di più</a>
+                        <a href="#" class="btn btn-primary">Anteprima</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-4 mt-5">
+                <div class="card card-service" style="width: 18rem;">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/29/12/21/weimaraner-1869442_640.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ricerca:</h5>
+                        <p class="card-text">Addestramento per la ricerca di persone o oggetti.
+                        </p>
+                        <a href="#" class="btn btn-primary">Scopri di più</a>
+                        <a href="#" class="btn btn-primary">Anteprima</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+        </div>
+    </section>
+
+    <!-- fine section servizi -->
+    <!-- section team -->
+    <section class="container mt-5">
+        <div class="row justify-content-center">
+            <h2> Il Nostro Team</h2>
+            <!-- roberta -->
+            <div class="col-9 col-md-5 mt-5 justify-content-center ">
+                <div class="img-profile-beba me-md-5 img-fluid">
+
+                </div>
+                <div class="col-12">
+                    <h2 class="mt-5">Losciale Roberta</h2>
+                    <p class="bio-roberta my-5"><strong>Ceo della scuola per cani</strong>,Roberta è sempre stata
+                        circondata da animali, ma è stato l’amore incondizionato dei cani a conquistare il suo cuore.
+                        Fin da bambina, ha trascorso ore a giocare con i suoi fedeli compagni a quattro zampe, imparando
+                        a conoscerne le abitudini, i bisogni e la straordinaria capacità di amare.
+
+                        Questa passione profonda l'ha spinta a voler dedicare la sua vita a questi meravigliosi esseri.
+                        Dopo aver conseguito la qualifica di educatrice cinofila, Roberta ha maturato una vasta
+                        esperienza lavorando con cani di tutte le razze e con le più diverse esigenze.
+
+                        La Nascita di un Sogno
+
+                        Il desiderio di condividere la sua conoscenza e la sua passione con gli altri l'ha portata a
+                        fondare la [Nome della Scuola], una scuola per cani dove l'amore e il rispetto per gli animali
+                        sono al primo posto. Qui, i cani possono imparare, socializzare e crescere in un ambiente sicuro
+                        e stimolante, grazie a un metodo educativo basato sul rinforzo positivo e sulla collaborazione
+                        con i proprietari.
+
+                        Una Filosofia Basata sull'Amore
+
+                        Per Roberta, il rapporto tra un cane e il suo proprietario è un legame speciale che va oltre
+                        l'addestramento. La sua scuola si propone di rafforzare questo legame, aiutando i proprietari a
+                        comprendere meglio i loro amici a quattro zampe e a creare con loro una relazione duratura e
+                        appagante.
+
+                        I Frutti di un Grande Lavoro
+
+                        Grazie alla sua dedizione e alla sua professionalità, Roberta è riuscita a trasformare la sua
+                        passione in una realtà. La scuola è diventata un punto di riferimento per molti proprietari di
+                        cani, che apprezzano l'approccio positivo e personalizzato di Roberta e dei suoi collaboratori.
+
+                        Un Futuro Radioso
+
+                        Roberta continua a lavorare con entusiasmo per migliorare sempre di più i servizi offerti dalla
+                        sua scuola. Il suo obiettivo è quello di diffondere una cultura cinofila basata sul rispetto e
+                        sulla comprensione, e di contribuire a creare un mondo migliore per i cani e per le persone che
+                        li amano.</p>
+                </div>
+            </div>
+            <!-- fine roberta -->
+
+            <!-- giuseppe -->
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-10 col-md-6 ">
+                        <div class="row justify-content-center">
+
+                            <div class="img-profile-peppe "></div>
+                        </div>
+                        <h2>Giuseppe Pentrelli</h2>
+                        <p class="bio-peppe">Giuseppe è molto più di un semplice addetto ai cani. Con una passione
+                            innata per i nostri amici a quattro zampe, Giuseppe ha dedicato la sua vita a prendersi cura
+                            di loro, dalla tenera età fino all'età adulta. La sua esperienza nel campo delle medicazioni
+                            e dell'alimentazione canina è inestimabile, grazie ai numerosi corsi di aggiornamento e alle
+                            collaborazioni con veterinari specializzati.
+
+                            Ma la passione di Giuseppe non si ferma qui. Consapevole dell'importanza della comunicazione
+                            e del marketing nel mondo cinofilo, ha deciso di mettere a frutto le sue competenze per
+                            promuovere una scuola per cani. Grazie alla sua creatività e alla sua profonda conoscenza
+                            del mondo animale, Giuseppe ha sviluppato campagne pubblicitarie efficaci e coinvolgenti,
+                            contribuendo a far crescere la reputazione della scuola e ad attrarre sempre più
+                            appassionati.
+
+                            Oggi, Giuseppe è un punto di riferimento per tutti coloro che cercano consigli e assistenza
+                            per i propri cani. La sua capacità di unire competenze tecniche e passione per gli animali
+                            lo rende un professionista unico nel suo genere.</p>
+                    </div>
+                    <div class="col-10 col-md-6 ">
+                        <div class="row justify-content-center">
+
+                            <div class="img-profile-savio "></div>
+                        </div>
+                        <h2>Savio Chiumarulo</h2>
+                        <p class="bio-savio">Dietro ogni scuola per cani di successo, c'è una squadra affiatata di
+                            professionisti. E tra questi, Savio occupa un posto d'onore. Con il suo furgone sempre
+                            pronto a partire, Savio è il cuore pulsante della logistica della nostra scuola.
+
+                            Ogni giorno, Savio percorre chilometri e chilometri per consegnare farmaci, cibo e tutto ciò
+                            di cui i nostri amici a quattro zampe hanno bisogno. Ma il suo lavoro va ben oltre la
+                            semplice consegna: Savio è un punto di riferimento per i proprietari dei cani, sempre pronto
+                            a dare un consiglio o a offrire un sorriso.
+
+                            La sua passione per gli animali è evidente fin dalla prima volta che lo si incontra. Savio
+                            ha un modo tutto suo di interagire con i cani, riuscendo a conquistare la loro fiducia in
+                            pochi istanti. Non è raro vederlo accarezzare un cucciolo durante una consegna o scambiare
+                            qualche parola con un proprietario preoccupato per la salute del suo amico a quattro zampe.
+
+                            Per Savio, questo lavoro non è solo un modo per guadagnarsi da vivere, ma una vera e propria
+                            missione. È grato di poter contribuire al benessere degli animali e di far parte di un team
+                            che si prende cura di loro con dedizione e professionalità</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- fine section -->
+    <!-- carosello  -->
+    <div class="section-carosello">
+
+        <h2 class="h2-scuola mt-5">La nostra scuola</h2>
+
+        <section class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-8 col-lg-6">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+
+                        </div>
+                        <div class="carousel-inner border border-white">
+                            <div class="carousel-item active">
+                                <img src="https://cdn.pixabay.com/photo/2015/03/14/05/27/dachshund-672780_640.jpg"
+                                    class="d-block w-100 " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.istockphoto.com/id/610255076/it/foto/uomo-che-adena-un-cane.jpg?s=612x612&w=0&k=20&c=HwKuzGHKxZMEmvzbe9xelZ87lofm9if0fbNKA59pW28="
+                                    class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.istockphoto.com/id/610255190/it/foto/uomo-che-adena-cani-al-parco.jpg?s=612x612&w=0&k=20&c=VaS9I-5K1lUgaoxfBwOuZ09FMAe2OzQ-innG-7s8PHE="
+                                    class="d-block w-100" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.istockphoto.com/id/941166350/it/foto/la-donna-sta-adetando-il-suo-cane-per-sdraiarsi.jpg?s=612x612&w=0&k=20&c=xnXh4kNaUZvxky7upwhw7P7bQDRPeD3ZhT3w8V15ANA="
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fine carosello -->
+        <!-- section orari lavorativi -->
+        <section class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-3 mt-5 text-light">
+                    <div class="d-flex flex-column align-items-center">
+                        <h5>ORARI LAVORATIVI</h5>
+                        <P>Lunedi <data>9.00 - 19.00</data></P>
+                        <P>Martedi <data>9.00 - 19.00</data></P>
+                        <P> Mercoledi <data>9.00 - 19.00</data></P>
+                        <P>Giovedi <data>9.00 - 19.00</data></P>
+                        <P>Venerdi <data>9.00 - 19.00</data></P>
+                        <P>Sabato <data>9.00 - 19.00</data></P>
+                        <P>Domenica <data>9.00 - 13.00</data></P>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- fine section orari lavorativi -->
+
+
+        <!-- inizio form -->
+        <section class="container">
+            <div class="row justify-content-center ">
+                <div class="col-12 my-5">
+                    <h3>Richiedi un preventivo</h3>
+                    <h4>sarai ricontattato al piu presto!!</h4>
+                </div>
+                <div class="col-12 col-md-4">
+                    <form class="rounded-4 p-5 border border-light">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                                placeholder="Mario">
+                            <div id="emailHelp" class="form-text">We'll never share your name with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="surname" class="form-label">Inserisci il tuo cognome</label>
+                            <input type="text" class="form-control" id="surname" aria-describedby="emailHelp"
+                                placeholder="Rossi">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="number" class="form-label">Inserisci il tuo cellulare</label>
+                            <input type="tel" class="form-control" id="surname" aria-describedby="emailHelp"
+                                placeholder="numero cellulare">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="email@esempio.it">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-outline-light">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <!-- fine form -->
+
+
+        <!-- inizio Faq -->
+        <section class="container mt-5">
+            <div class="row justify-content-center">
+                <h2 class="mt-5">Faq</h2>
+                <div class="col-10">
+                    <div class="accordion mt-5" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- fine Faw -->
+    <!-- footer -->
+    <footer class="container-fluid border border-success ">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 mt-4">
+                <div class="d-flex flex-column align-items-center ">
+                    <h4 class="mt-4">SOCIAL</h4>
+                    <a class="mt-4" href=""><i class=" fs-2 bi bi-facebook"></i></a>
+                    <a class="" href=""><i class=" fs-2 bi bi-instagram"></i></a>
+                    <a class="" href=""><i class=" fs-2 bi bi-twitter"></i></a>
+                    <a class="" href=""><i class=" fs-2 bi bi-twitter-x"></i></a>
+                    <a class="" href=""><i class=" fs-2 bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mt-5">
+                <div class="d-flex flex-column align-items-center">
+                    <h5>CONTATTI</h5>
+                    <p class="mt-4"><strong>P.IVA E C.F.n. 12345678912</p></strong>
+                    <p><strong>33912212124</p></strong>
+                    <p><strong>herosection@aulab.com</strong></p>
+                    <address><strong>By Pentrelli Giuseppe</strong></address>
+                    <p><strong>@copyright © 2024</p></strong>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mt-5">
+                <div class="d-flex flex-column align-items-center linkfooter">
+                    <h5>Sponsor</h5>
+                    <a class="mt-4" href=""> ARCAPLANET</a>
+                    <a href="">ZOOMIGUANA</a>
+                    <a href="">LILLO E I VAGABONDI</a>
+                    <a href="">MISTER DOG</a>
+                    <a href="">JOE ZAMPETTI</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+    <!-- fine footer -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

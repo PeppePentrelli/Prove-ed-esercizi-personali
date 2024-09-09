@@ -1,0 +1,160 @@
+:root {
+    --bg-color-primary: #0A1A0D;
+    --bg-element-primary: #F8F9FA;
+    --text-primary-color: #F8F9FA;
+
+}
+
+body {
+    background-color: var(--bg-color-primary);
+}
+
+nav {
+    background-color: var(--bg-element-primary); border: var(--bg-color-primary);
+}
+
+header {
+    background: linear-gradient(transparent, #0A1A0D), url(https://pixabay.com/get/ga0e329e6997ff9c7831dcadbcc9206b846beabd464f163d979fcdb81caa18f118f3c2a832fb56c8b077e58eaa1d5ce0f4d65b925634409963ce4178efcde8504_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--text-primary-color);
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: var(--text-primary-color);
+}
+
+.imgcustom1 {
+    height: 50px
+}
+
+
+.card-service {
+    min-height: 400px;
+}
+
+
+.div-profile {
+    height: 30%;
+    width: 30%;
+}
+
+.img-profile-beba {
+    height: 500px;
+    width: 500px;
+    background-image: url(media/beba.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: solid 2px white;
+
+}
+
+.img-profile-peppe {
+   aspect-ratio: 1/1;
+min-height: 500px;
+    background-image: url(media/peppe.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    width: 500px;
+    border: solid 2px white;
+}
+
+.img-profile-savio {
+    aspect-ratio: 1/1;
+  min-height: 500px;
+    background-image: url(media/savio.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    width: 500px;
+    border: solid 2px white;
+
+}
+
+.bio-roberta {
+    color: var(--text-primary-color);
+}
+
+.bio-peppe {
+    color: var(--text-primary-color);
+}
+
+.bio-savio {
+    color: var(--text-primary-color);
+}
+
+
+
+.h2-scuola {
+    background-color: var(--bg-color-primary);
+}
+
+
+.section-carosello {
+    background: linear-gradient(transparent, #0A1A0D), url(media/dog-7128745.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+form {
+    background-color: var(--bg-color-primary);
+    color: var(--text-primary-color);
+}
+
+
+footer {
+    background-color: var(--bg-element-primary);
+    color: var(--bg-color-primary);
+}
+
+.linkfooter a{ text-decoration: none; color: var(--bg-color-primary); }
+
+@media (max-width: 500px) {
+    .img-profile-beba {
+        height: 200px;
+        width: 200px;
+        background-image: url(media/beba.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        justify-content: center;
+min-height: 0px;
+
+    }
+
+ .img-profile-peppe {
+        height: 200px;
+        width: 200px;
+        background-size: cover;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        justify-content: center;
+min-height: 0px;
+        
+    }
+
+    .img-profile-savio {
+min-height: 0px;
+
+        height: 200px;
+        width: 200px;
+        background-size: cover;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        justify-content: center;
+        
+    } 
+    header{ height: 200px;}
+}
